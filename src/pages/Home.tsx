@@ -8,7 +8,7 @@ const Home = () => (
     <div>
       <img src={HomeImage} />
     </div>
-    <Box display="flex" flexDirection="column" justifyContent="space-evenly" height="28vh">
+    <Box display="flex" flexDirection="column" alignItems="center" justifyContent="space-evenly" height="28vh">
       <Typography component="h1" color="#000000" fontWeight={800} fontFamily="Raleway" fontSize={30}>
         Welcome to Easy Key
       </Typography>

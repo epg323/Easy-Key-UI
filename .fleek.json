@@ -1,0 +1,8 @@
+{
+  "build": {
+    "image": "node:lts",
+    "command": "corepack enable && corepack prepare pnpm@latest --activate && pnpm i && pnpm build",
+    "publicDir": "dist",
+    "baseDir": "."
+  }
+}

@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 import { useAccount, useContractRead } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import yakLogo from '@public/yak-logo.png';
@@ -39,7 +39,7 @@ const Header: FC = () => {
     <div style={{ display: 'flex', flexDirection: 'row' }}>
       <img src={yakLogo} alt="yak logo" width={45} height={45} />
       <ConnectButton />
-      {/* <span>Address: {address}</span> */}
+      <span>Address: {address}</span>
       <span>Uni Supply: {data?.toString()}</span>
     </div>
   );

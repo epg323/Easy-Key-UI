@@ -9,9 +9,9 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '100vh', width: '100vw' }}>
       <div>
-        <img src={HomeImage} alt="easy key abstract" />
+        <img src={HomeImage} alt="easy key abstract" style={{ width: '-webkit-fill-available' }} />
       </div>
       <Box display="flex" flexDirection="column" alignItems="center" justifyContent="space-evenly" height="28vh">
         <Typography variant="h1" color="#000000" fontWeight={800} fontFamily="Raleway" fontSize={30}>

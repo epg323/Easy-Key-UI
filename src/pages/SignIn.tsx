@@ -13,7 +13,7 @@ const SignIn = () => {
 
   const [value, setValue] = useState('');
 
-  const handleChange = (newValue) => {
+  const handleChange = (newValue: any) => {
     setValue(newValue);
   };
 
@@ -35,7 +35,7 @@ const SignIn = () => {
           body: params,
         }
       );
-      // console.log(result);
+      console.log(result);
 
       navigate('/sms-code');
     } catch (err) {

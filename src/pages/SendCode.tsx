@@ -11,7 +11,7 @@ const SendCode = () => {
 
   const [value, setValue] = useState('');
 
-  const handleChange = async (newValue) => {
+  const handleChange = async (newValue: any) => {
     setValue(newValue);
   };
 

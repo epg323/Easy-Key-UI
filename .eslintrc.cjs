@@ -18,7 +18,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'react/function-component-definition': [2, { "namedComponents": "arrow-function" }],
-    'plugin:react/jsx-runtime': 0
+    'plugin:react/jsx-runtime': 0,
+    'react/react-in-jsx-scope': 0
   },
   parserOptions:{
     project: './tsconfig.json'
